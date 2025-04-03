@@ -39,26 +39,25 @@ Then, use the DocumentValidator class as follows:
 ```bash
 <?php
 
-use Jamacio\DocumentoValidator\DocumentValidator;
+use Jamacio\DocumentValidator;
 
-// Example for CPF
+// Example for CPF:
 $cpf = "123.456.789-09";
 if (DocumentValidator::isCPF($cpf)) {
     echo "Formatted CPF: " . DocumentValidator::formatCPF($cpf) . "\n";
     echo "CPF is " . (DocumentValidator::validateCPF($cpf) ? "valid" : "invalid") . "\n";
 }
 
-// Example for CNPJ
+// Example for CNPJ:
 $cnpj = "12.345.678/0001-95";
 if (DocumentValidator::isCNPJ($cnpj)) {
     echo "Formatted CNPJ: " . DocumentValidator::formatCNPJ($cnpj) . "\n";
     echo "CNPJ is " . (DocumentValidator::validateCNPJ($cnpj) ? "valid" : "invalid") . "\n";
 }
 
-// Generic document validation
+// Generic document validation:
 $document = "12345678909";
 echo "Document " . $document . " is " . (DocumentValidator::validateDocument($document) ? "valid" : "invalid") . "\n";
-
 ```
 
 By including the Composer autoloader, the class will be available throughout your project without the need for manual file inclusion.
