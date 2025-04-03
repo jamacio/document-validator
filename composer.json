@@ -35,6 +35,11 @@
       "dev-master": "1.x-dev"
     }
   },
+  "scripts": {
+    "post-autoload-dump": [
+      "composer dump-autoload --optimize"
+    ]
+  },
   "minimum-stability": "stable",
   "type": "library",
   "support": {
