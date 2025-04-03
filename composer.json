@@ -1,0 +1,44 @@
+{
+  "name": "jamacio/document-validator",
+  "description": "A PHP library for validating and formatting Brazilian CPF and CNPJ numbers.",
+  "keywords": [
+    "cpf",
+    "cnpj",
+    "validation",
+    "formatting",
+    "brazil",
+    "php",
+    "document"
+  ],
+  "homepage": "https://github.com/jamacio/document-validator",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jamacio",
+      "email": "jamacio@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jamacio\\DocumentValidator\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0 || ^9.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "minimum-stability": "stable",
+  "type": "library",
+  "support": {
+    "issues": "https://github.com/jamacio/document-validator/issues",
+    "source": "https://github.com/jamacio/document-validator"
+  }
+}
