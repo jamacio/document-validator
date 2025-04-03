@@ -39,7 +39,7 @@ Then, use the DocumentValidator class as follows:
 ```bash
 <?php
 
-use Jamacio\DocumentValidator\DocumentValidator;
+use Jamacio\DocumentValidator;
 
 // Example for CPF:
 $cpf = "123.456.789-09";

@@ -1,6 +1,6 @@
 <?php
 
-namespace Jamacio\DocumentValidator;
+namespace Jamacio;
 
 class DocumentValidator
 {
