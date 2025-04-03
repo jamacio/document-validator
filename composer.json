@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Jamacio\\": "src/"
+      "Jamacio\\DocumentValidator\\": "src/"
     }
   },
   "require-dev": {
